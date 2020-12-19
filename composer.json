@@ -1,0 +1,16 @@
+{
+  "name": "calendar/converter",
+  "author": {
+    "name": "Bekele H.",
+    "email": "contactnassa@gmail.com"
+  },
+  "description": "Ethiopia date converter using laravel",
+  "require": {
+    "illuminate/support": "^8.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}

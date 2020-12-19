@@ -46,8 +46,7 @@ Class EthiopianDateConverter
     // check no. days of pagume
     public function getPagume()
     {
-        $this->et_year = $this->getEtYear();
-        return ($this->et_year % 4 == 0) ? 6 : 5;
+        return ($this->getPagume()) ? 6 : 5;
     }
 
     public function getEtYear()
